@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Treasure Game</title>
+
+    <style>
+        body{
+            background-image: url("images/space.jpg");
+            -webkit-background-size:cover;
+            background-size:cover;
+        }
+    table{
+        border-collapse: collapse;
+        border: 2px dashed black;
+        background-image: url("https://i.kinja-img.com/gawker-media/image/upload/t_original/mkuxmpz8nsal0soyhhe9.jpg");
+
+    }
+        tr,td {
+            border-collapse: collapse;
+            border: 1px dotted lightsteelblue;
+        }
+        tr.tran{
+            solid-opacity: 6;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        img:hover {
+            opacity: 0.7;
+            filter: alpha(opacity=50);
+            -webkit-animation: spin 10s infinite;
+            animation: spin 10s infinite;
+
+        @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+        @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+        @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }}
+
+        button{
+            display: inline-block;
+            color: midnightblue;
+            background-color: skyblue;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 12px;
+            text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+            padding: 10px 30px;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border: 1px solid rgba(0,0,0,0.3);
+            border-bottom-width: 3px;
+            font-family:"Copperplate Gothic Bold";
+            text-shadow: black;
+        }
+        button:hover {
+            background-color: #4F87A2;
+            border-color: rgba(0,0,0,0.5);
+        }
+        button:active {
+            background-color: #3C677B;
+            border-color: rgba(0,0,0,0.9);
+        }
+
+    </style>
+<script src="3asure_jscript.js"></script>
+</head>
+<body>
+
+<body onload="initial()">
+<table id="table" align="center">
+</table>
+</body>
+</html>
