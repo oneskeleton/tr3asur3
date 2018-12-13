@@ -50,4 +50,3 @@ function mouseover(a)
 {
     alert("Congratulations, you found the treasure!! \n:D");
     a.src="https://raw.githubusercontent.com/oneskeleton/tr3asur3/master/images/treasure_picture.png";}
-// ]]>
